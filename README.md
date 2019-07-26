@@ -46,3 +46,10 @@
 >>>>>`loadRound(Context context, String imageUri, ImageView imageView)` **加载圆形图片**<br>
 >>>>>`saveViewToSystem(Context context, View view)` **将View保存到本地**<br>
 >>>>>`saveBitmapToSystem(Context context, Bitmap bitmap)` **保存图片到相册**<br>
+
+## 需要权限
+```
+	<uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+```
