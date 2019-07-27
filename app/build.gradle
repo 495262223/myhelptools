@@ -35,5 +35,5 @@ dependencies {
     implementation 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.30'
     implementation 'com.android.support:recyclerview-v7:29.1.0'
     implementation 'com.blankj:utilcode:1.25.1'
-    implementation project(path: ':myhelptools')
+    api project(path: ':myhelptools')
 }
